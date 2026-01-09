@@ -12,22 +12,46 @@ header{
     background-position: center center;
     background-size: cover;
     height: 430px;
+    
 }
 .logo{
     display: none;
 }
 
 title{
-
+    background-color: black;
 }
 h1{
-
+    color: white;
 }
 nav{
     position: fixed;
+    text-align: right;
+    border:none;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    
+
 }
 ul{
-
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: none;
+    height: 56px;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    border: none;
+    
+}
+li{
+    padding: 10px 12px;
 }
 aside{
 
