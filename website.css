@@ -1,8 +1,79 @@
 body{
-    background-color: lightskyblue;
+    background-color: white;
 }
 
 body *
 {
     border:1px solid black; 
+}
+header{
+    background-image: url('imgs/HeartofKYWebLogo.jpg');
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    height: 430px;
+}
+.logo{
+    display: none;
+}
+
+title{
+
+}
+h1{
+
+}
+nav{
+    position: fixed;
+}
+ul{
+
+}
+aside{
+
+}
+main{
+
+}
+div{
+
+}
+p{
+
+}
+h2{
+
+}
+address{
+
+}
+h3{
+
+}
+.imgwrapper{
+
+}
+.imggroup long{
+
+}
+.imgdiv{
+
+}
+.video{
+
+}
+.links{
+
+}
+.note{
+
+}
+.imggroup short{
+
+}
+.phone{
+
+}
+.title{
+
 }
