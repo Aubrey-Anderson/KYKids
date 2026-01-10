@@ -222,7 +222,6 @@ main>div{
 #whyChildcare{
     order: 2;
     text-align: left;
-    padding-left: -1.25%;
 }
 
 #choseChildcare{
@@ -237,11 +236,13 @@ main>div{
     height: 198.14px;
     width: 330.25px;
 }
-.links a{
+#childcare .links a{
     color: rgba(0, 114, 153, 1);
+     margin-left: 0px;  
 }
 #childcare h2{
     font-size: 20pt;
+    margin:0;
 }
 #childcare p{
     font-size: 14pt;
@@ -262,30 +263,51 @@ main>div{
 }
 #poviders{
     padding: 0px;
+    margin-left: 150px;
 }
+
+
 /* activities */
 #activities .social{
     display:none;
 }
-.imgwrapper{
+#activities .imgwrapper{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+/*    grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     text-align: left;
     justify-content: center;
+    width: 100%;
+    margin-left: 125px;
 
 }
 #ready4k:nth-child(1){
     grid-column-start: 1;
 }
-.imggroup img{
+#activities .imggroup img{
     height: 375.84px;
     width: 359.56px;
 }
-iframe{
+#activities iframe{
     width: 359.56px;
     height: 265.53px;
     display: inline;
 }
-a[href="https://parentpowered.com/"]{
+#activities a[href="https://parentpowered.com/"]{
     text-decoration: normal;
+}
+#activities main #programs ul a{
+    font-family: 'PT Sans';
+    font-size: 14pt;
+    text-align:center;
+    color: rgba(249, 249, 249, 1);
+    background-color: rgba(0, 114, 153, 1);
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+#activities main #programs ul{
+    list-style-type: none;
+    width: 355px;
+
 }
