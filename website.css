@@ -263,3 +263,29 @@ main>div{
 #poviders{
     padding: 0px;
 }
+/* activities */
+#activities .social{
+    display:none;
+}
+.imgwrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    justify-content: center;
+
+}
+#ready4k:nth-child(1){
+    grid-column-start: 1;
+}
+.imggroup img{
+    height: 375.84px;
+    width: 359.56px;
+}
+iframe{
+    width: 359.56px;
+    height: 265.53px;
+    display: inline;
+}
+a[href="https://parentpowered.com/"]{
+    text-decoration: normal;
+}
