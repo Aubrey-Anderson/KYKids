@@ -35,6 +35,8 @@ nav{
     top: 0px;
     right: 0px;
     width: 100%;
+    padding: 0px 16px;
+    height: 75px;
 }
 #inspiration{
     color: rgba(0, 114, 153, 1);
@@ -53,8 +55,14 @@ ul{
     list-style-type: none;
     border: none;
     height: 56px;
-    
-    
+    justify-content: flex-end;
+    font-family: 'PT Sans';
+    font-size: 14pt;   
+    padding: 10px 12px; 
+    vertical-align: top;  
+    position: fixed;
+    right: 0px;
+    top: -15px;
 }
 nav a{
     color: white;
@@ -66,6 +74,9 @@ p a{
 }
 li{
     padding: 10px 12px;
+}
+li:active{
+    font-weight: bold;
 }
 aside{
 
@@ -121,4 +132,49 @@ h3{
 }
 .title{
 
+}
+aside{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+
+}
+img[alt="Facebook"]{
+    background-color: #1877f2;
+    margin: 9px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+
+}
+img[alt="Instagram"]{
+    background-color: #fe005c;
+    margin: 9px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+#home a[href="index.html"]{
+    font-weight: bold;
+}
+#activities a[href="activities.html"]{
+    font-weight: bold;
+}
+#childcare a[href="childcare.html"]{
+    font-weight: bold;
+}
+#childcare a[href="childcare.html"]{
+    font-weight: bold;
+}
+#support a[href="support.html"]{
+    font-weight: bold;
+}
+#preschool a[href="preschool.html"]{
+    font-weight: bold;
+}
+#concerns a[href="concerns.html"]{
+    font-weight: bold;
 }
