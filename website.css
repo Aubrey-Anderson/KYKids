@@ -4,25 +4,28 @@ body{
 
 body *
 {
-    border:1px solid black; 
+   
 }
 header{
     background-image: url('imgs/HeartofKYWebLogo.jpg');
-    display: block;
+    display: flex;
     background-position: center center;
     background-size: cover;
     height: 430px;
+    justify-content: center;
+    align-items:center;
     
 }
 .logo{
     display: none;
 }
-
-title{
-    background-color: black;
-}
 h1{
     color: white;
+    text-align: center;
+    border:none;
+    font-family: 'Rock Salt', cursive;
+    width: 275px;
+    font-size: 40pt;
 }
 nav{
     position: fixed;
@@ -32,8 +35,17 @@ nav{
     top: 0px;
     right: 0px;
     width: 100%;
-    
-
+}
+#inspiration{
+    color: rgba(0, 114, 153, 1);
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 18pt;
+    line-height: 1.5;
+    padding: 0px 75px;
+    display: block;
 }
 ul{
     display: flex;
@@ -44,11 +56,13 @@ ul{
     
     
 }
-a{
+nav a{
     color: white;
     text-decoration: none;
     border: none;
-    
+}
+p a{
+    color: rgba(0, 114, 153, 1);
 }
 li{
     padding: 10px 12px;
@@ -60,13 +74,20 @@ main{
 
 }
 div{
-
+    padding: 8px;
 }
-p{
+section p{
+    font-family: 'PT Sans';
+    font-size: 14pt;
+    line-height: 1.5;
+    font-weight: 400px;
 
 }
 h2{
-
+    color: rgba(0, 114, 153, 1);
+    font-weight: bold;
+    font-size: 1.5em;
+ 
 }
 address{
 
@@ -87,7 +108,7 @@ h3{
 
 }
 .links{
-
+    
 }
 .note{
 
