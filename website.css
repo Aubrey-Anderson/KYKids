@@ -44,7 +44,7 @@ nav{
     padding: 0px 16px;
     height: 75px;
 }
-#inspiration{
+#inspiration, .note{
     color: rgba(0, 114, 153, 1);
     font-family: 'Raleway';
     font-weight: 600;
@@ -310,4 +310,117 @@ main>div{
     list-style-type: none;
     width: 355px;
 
+}
+#kids-and-parents{
+    margin-left: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    
+}
+#kids-and-parents h2{
+    grid-area: 1/1/1/5;
+}
+#kids-and-parents .imgwrapper .links ul{
+    list-style-type: none;
+}
+#kids-and-parents .links a{
+    color: rgba(0, 114, 153, 1);
+    font-size:14pt;
+    line-height:1.5;
+    font-family: 'PT Sans';
+}
+#kids-and-parents p, #kids-and-parents .links{
+    text-align:center;
+    font-size: 14pt;
+    line-height: 1.5;
+    font-family:'PT Sans';
+}
+#kids-and-parents .imgdiv a img, #kidAdventures .imgdiv a img{
+    height: 266px;
+    width: 266px;
+    display:block;
+    margin-left:10px;
+}
+#cradleSchool {
+    grid-area: 2/1/2/2;
+}
+#GladysProject{
+    grid-area: 2/2/2/3;
+}
+#Boylelibrary, #Mercerlibrary{
+    grid-area: 2/3/2/5;
+}
+#Mercerlibrary{
+    justify-self:flex-end;
+}
+#Mercerlibrary p{
+    display:none;
+}
+#Mercerlibrary .links{
+    position:relative;
+    top: 150px;
+    left: -165px;
+}
+#artCenterBG{
+    grid-area: 3/1/3/2;
+}
+#kinderMusik {
+    grid-area: 3/2/3/3;
+}
+#PlaidElephant{
+    grid-area: 3/3/3/4;
+}
+#EpicPlay{
+    grid-area: 3/4/3/5;
+}
+#Parks{
+    grid-area: 4/1/4/3;
+}
+#Parks .imgdiv a img{
+    height: 267px;
+    width: 562px;
+}
+#AtHome{
+    margin-top:50px;
+}
+#LearnKY{
+    display:flex;
+    flex-direction: row;
+    font-size:14pt;
+    font-family: 'PT Sans';
+}
+#LearnKY ul{
+    list-style-type: none;
+}
+#LearnKY div{
+    align-self:center;
+}
+#LearnKY ul a{
+    color: rgba(0, 114, 153, 1);
+}
+#activities h2{
+    font-size:24pt;
+}
+#kidAdventures{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+#kidAdventures ul{
+    list-style-type: none;
+}
+#kidAdventures ul a{
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    color: rgba(0, 114, 153, 1);
+}
+#kidAdventures p{
+    font-size: 14pt;
+    font-family: 'PT Sans';
+}
+#kidAdventures img{
+    text-align: center;
 }
