@@ -70,6 +70,9 @@ nav ul{
     right: 0px;
     top: -15px;
 }
+#members, #funding{
+    padding-bottom: 25px;
+}
 nav a{
     color: white;
     text-decoration: none;
@@ -84,12 +87,6 @@ li{
 li:active{
     font-weight: bold;
 }
-aside{
-
-}
-main{
-
-}
 div{
     padding: 8px;
 }
@@ -103,7 +100,7 @@ section p{
 h2{
     color: rgba(0, 114, 153, 1);
     font-weight: bold;
-    font-size: 1.5em;
+    font-size:24pt;
  
 }
 address{
@@ -132,33 +129,6 @@ address~p~p{
     font-family: 'Roboto Slab';
     font-size: 14pt;
     line-height: 1.5;
-}
-.imgwrapper{
-
-}
-.imggroup long{
-
-}
-.imgdiv{
-
-}
-.video{
-
-}
-.links{
-    
-}
-.note{
-
-}
-.imggroup short{
-
-}
-.phone{
-
-}
-.title{
-
 }
 aside{
     text-align: center;
@@ -223,7 +193,6 @@ main>div{
     order: 2;
     text-align: left;
 }
-
 #choseChildcare{
     display:flex;
     flex-direction: row;
@@ -233,16 +202,17 @@ main>div{
     flex-direction: row;
 }
 #childcare div img{
-    height: 198.14px;
-    width: 330.25px;
+    height: 278.23px;
+    width: 463.73px;
 }
 #childcare .links a{
     color: rgba(0, 114, 153, 1);
      margin-left: 0px;  
 }
 #childcare h2{
-    font-size: 20pt;
+    font-size: 24pt;
     margin:0;
+    text-align:left;
 }
 #childcare p{
     font-size: 14pt;
@@ -263,10 +233,8 @@ main>div{
 }
 #poviders{
     padding: 0px;
-    margin-left: 150px;
+    margin:15px 0px;
 }
-
-
 /* activities */
 #activities .social{
     display:none;
@@ -318,6 +286,7 @@ main>div{
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-template-rows: auto auto auto auto;
+    width:75%;
     
 }
 #kids-and-parents h2{
@@ -377,7 +346,8 @@ main>div{
     grid-area: 3/3/3/4;
 }
 #EpicPlay{
-    grid-area: 3/4/3/5;
+    grid-area: 3/4/3/5;margin-left:none;
+    padding-left:none;
 }
 #Parks{
     grid-area: 4/1/4/3;
@@ -415,18 +385,26 @@ main>div{
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
+    margin-left: 0px;
+    padding-left:0px;
+    
 }
 #kidAdventures ul{
     list-style-type: none;
+    text-align:center;
+    margin-left: 0px;
+    padding-left:0px;
 }
 #kidAdventures ul a{
     font-size: 14pt;
     font-family: 'PT Sans';
     color: rgba(0, 114, 153, 1);
+    
 }
 #kidAdventures p{
     font-size: 14pt;
     font-family: 'PT Sans';
+    text-align:center;
 }
 #kidAdventures img{
     text-align: center;
@@ -442,7 +420,17 @@ main>div{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     align-items: flex-start;
-    width: 50%;
+    width: 60%;
+}
+#support .imgwrapper p{
+    padding: 0px;
+    line-height:1.5;
+    font-size:14pt;
+    font-family: 'PT Sans';
+}
+#MOPS div+div{
+    padding-left:10px;
+    padding-right: 10px;
 }
 #newParents h2{
     grid-area: 1/1/1/4;
@@ -549,4 +537,157 @@ main>div{
 }
 #MOPS ul a{
     color: rgba(0, 114, 153, 1);
+}
+/* Preschool Page */
+#preschool .social{
+    display:none;
+}
+#preschool p{
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+    font-weight: 400;
+}
+#headStartPre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#headStartPre ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+}
+#headStartPre ul a{
+    color: rgba(0, 114, 153, 1);
+}
+#preschool .imgwrapper img{
+    height: 266.41px;
+    width: 266.41px;
+}
+#preschool h2{
+    font-size: 24pt;
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+}
+#PublicPreschool .imgwrapper{
+    display: flex;
+    flex-direction: row;
+}
+#PublicPreschool .imgwrapper ul{
+     list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PublicPreschool .imgwrapper ul a{
+    color: rgba(0, 114, 153, 1);
+    
+}
+#PublicPreschool .imgwrapper .phone a{
+    color: black;
+    text-decoration: none;
+}
+#PublicPreschool .imgwrapper .phone {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PrivatePreschool .imgwrapper{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+#PrivatePreschool .imgwrapper ul{
+     list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PrivatePreschool .imgwrapper ul a{
+    color: rgba(0, 114, 153, 1);
+    
+}
+#PrivatePreschool .imgwrapper .phone a{
+    color: black;
+    text-decoration: none;
+}
+#PrivatePreschool .imgwrapper .phone {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PrivatePreschool .imgwrapper{
+    text-align: center;
+}
+#PrivatePreschool .links a{
+    text-align: center;
+}
+#concerns .social{
+    display:none;
+}
+#concerns main section{
+    font-family: 'PT Sans';
+    font-size:14pt;
+    line-height:1.5;
+    font-weight:400;
+    padding-bottom: 25px;
+    border-bottom: 2px lightgray solid;
+}
+#concerns main section a{
+    color: rgba(0, 114, 153, 1);
+}
+#concerns a[href="https://www.cdc.gov/ncbddd/actearly/whyActEarly.html"]{
+    font-weight: bold;
+}
+#concerns main section ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+#AddressConcerns .imgwrapper{
+    display:flex;
+    flex-direction: row;
+    font-family: 'PT Sans';
+    font-weight:400;
+    font-size:14pt;
+    text-align:center;
+    line-height:1.5;
+}
+#AddressConcerns .imgwrapper h2{
+    font-family: 'Raleway';
+    font-size: 24pt;
+    line-height: 1.5;
+    font-weight:600;
+}
+#AddressConcerns .imgwrapper .phone a{
+    text-decoration: none;
+    color: black;
+}
+#AddressConcerns .imgwrapper .links ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    text-align:center;
+}
+#concerns img{
+    height: 495.86px;
+    width: 562.41px;
 }
