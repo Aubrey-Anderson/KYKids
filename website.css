@@ -304,12 +304,13 @@ main>div{
     background-color: rgba(0, 114, 153, 1);
     border-radius: 4px;
     text-decoration: none;
+    width: 100%;
 
 }
-#activities main #programs ul{
+#activities main #programs ul {
     list-style-type: none;
-    width: 355px;
-
+    width: 100%;
+    display: block;
 }
 #kids-and-parents{
     margin-left: 0px;
@@ -324,6 +325,9 @@ main>div{
 }
 #kids-and-parents .imgwrapper .links ul{
     list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+    text-align: center;
 }
 #kids-and-parents .links a{
     color: rgba(0, 114, 153, 1);
@@ -401,7 +405,10 @@ main>div{
     color: rgba(0, 114, 153, 1);
 }
 #activities h2{
-    font-size:24pt;
+    font-size: 24pt; 
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 1.5;
 }
 #kidAdventures{
     display:flex;
@@ -423,4 +430,123 @@ main>div{
 }
 #kidAdventures img{
     text-align: center;
+}
+/* Support */
+#support .social{
+    display: none;
+}
+#newParents .imgwrapper{
+    margin-left: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: flex-start;
+    width: 50%;
+}
+#newParents h2{
+    grid-area: 1/1/1/4;
+}
+#KYHands{
+    grid-area: 2/1/3/2;
+}
+#Haven{
+    grid-area: 2/2/3/3;
+}
+#Ephraim{
+    grid-area: 2/3/3/4;
+}
+#support .imgwrapper img{
+    height: 266.41px;
+    width: 266.41px;
+}
+#support h2{
+    font-size: 24pt; 
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 1.5;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#newParents .imggroup{
+    text-align: center;
+    line-height:1.5;
+    font-size:14pt;
+    font-family:'PT Sans';
+}
+#newParents ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+
+}
+#newParents ul a{
+    color: rgba(0, 114, 153, 1);
+}
+#therapy .imgwrapper{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+#therapy h2{
+    grid-area: 1/1/2/5;
+}
+#firststeps{
+    grid-area: 2/1/3/2;
+}
+#KidsCanDo{
+    grid-area: 2/2/3/3;
+}
+#HeadStart{
+    grid-area: 2/3/3/4;
+}
+#vips{
+    grid-area: 2/4/3/5;
+}
+#KCDHH{
+    grid-area: 3/1/4/2;
+}
+#KYACA{
+    grid-area: 3/2/4/3;
+}
+#KYSpin{
+    grid-area: 3/3/4/4;
+}
+#OSCHCN{
+    grid-area: 3/4/4/5;
+}
+#therapy .imgwrapper ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#therapy .imgwrapper ul a{
+    color:rgba(0, 114, 153, 1);
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height:1.5;
+    
+}
+#caregivers{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+#MOPS {
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height:1.5;
+    text-align:center;
+  
+}
+#MOPS ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+
+}
+#MOPS ul a{
+    color: rgba(0, 114, 153, 1);
 }
