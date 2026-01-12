@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 body{
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 }
-p, aside, h1, h2, h3, div, section, address{
+main{
     padding: 0px 48px;
     max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header{
     background-image: url('imgs/HeartofKYWebLogo.jpg');
@@ -30,8 +39,10 @@ h1{
     text-align: center;
     border:none;
     font-family: 'Rock Salt', cursive;
-    width: 275px;
-    font-size: 40pt;
+    width: 400px;
+    font-size: 39pt;
+    line-height: 1.4;
+    font-weight: 400;
 }
 nav{
     position: fixed;
@@ -99,8 +110,9 @@ section p{
 }
 h2{
     color: rgba(0, 114, 153, 1);
-    font-weight: bold;
+    font-weight: 600;
     font-size:24pt;
+    font-family: 'Raleway';
  
 }
 address{
@@ -246,8 +258,17 @@ main>div{
     text-align: left;
     justify-content: center;
     width: 100%;
-    margin-left: 125px;
 
+}
+.imggroup.long div .video{
+    order: -1;
+}
+.imggroup.long div:nth-child(2){
+    display:flex;
+    flex-direction: column;
+}
+main a:visited{
+    color: rgba(0, 114, 153, 1);
 }
 #ready4k:nth-child(1){
     grid-column-start: 1;
@@ -273,6 +294,7 @@ main>div{
     border-radius: 4px;
     text-decoration: none;
     width: 100%;
+    display:block;
 
 }
 #activities main #programs ul {
@@ -286,7 +308,8 @@ main>div{
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-template-rows: auto auto auto auto;
-    width:75%;
+    justify-content: center;
+    align-items: center;
     
 }
 #kids-and-parents h2{
