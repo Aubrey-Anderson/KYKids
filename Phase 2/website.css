@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 0px 48px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-image: url('imgs/HeartofKYWebLogo.jpg');
+    display: flex;
+    background-position: center center;
+    background-size: cover;
+    height: 430px;
+    justify-content: center;
+    align-items:center;
+    align-self: stretch;
+    box-shadow: inset 1600px 1600px rgba(24, 22, 22, 0.6)
+    
+}
+.logo{
+    display: none;
+}
+h1{
+    color: white;
+    text-align: center;
+    border:none;
+    font-family: 'Rock Salt', cursive;
+    width: 400px;
+    font-size: 39pt;
+    line-height: 1.4;
+    font-weight: 400;
+}
+nav{
+    position: fixed;
+    text-align: right;
+    border:none;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 0px 16px;
+    height: 75px;
+}
+#inspiration, .note{
+    color: rgba(0, 114, 153, 1);
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 18pt;
+    line-height: 1.5;
+    padding: 0px 75px;
+    display: block;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: none;
+    height: 56px;
+    justify-content: flex-end;
+    font-family: 'PT Sans';
+    font-size: 14pt;   
+    padding: 10px 12px; 
+    vertical-align: top;  
+    position: fixed;
+    right: 0px;
+    top: -15px;
+}
+#members, #funding{
+    padding-bottom: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+p a{
+    color: rgba(0, 114, 153, 1);
+}
+li{
+    padding: 10px 12px;
+}
+li:active{
+    font-weight: bold;
+}
+div{
+    padding: 8px;
+}
+section p{
+    font-family: 'PT Sans';
+    font-size: 14pt;
+    line-height: 1.5;
+    font-weight: 400px;
+
+}
+h2{
+    color: rgba(0, 114, 153, 1);
+    font-weight: 600;
+    font-size:24pt;
+    font-family: 'Raleway';
+ 
+}
+address{
+    font-style: normal;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+h3{
+    font-weight: normal;
+    margin: 0px;
+    font-size: 14pt;
+}
+address~p{
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+}
+address~p~p{
+    margin: 0px;
+}
+#mission p~p{
+    font-weight: 600;
+    color: rgba(0, 114, 153, 1);
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 14pt;
+    line-height: 1.5;
+}
+aside{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+
+}
+img[alt="Facebook"]{
+    background-color: #1877f2;
+    margin: 9px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+
+}
+img[alt="Instagram"]{
+    background-color: #fe005c;
+    margin: 9px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+#home a[href="index.html"]{
+    font-weight: bold;
+}
+#activities a[href="activities.html"]{
+    font-weight: bold;
+}
+#childcare a[href="childcare.html"]{
+    font-weight: bold;
+}
+#childcare a[href="childcare.html"]{
+    font-weight: bold;
+}
+#support a[href="support.html"]{
+    font-weight: bold;
+}
+#preschool a[href="preschool.html"]{
+    font-weight: bold;
+}
+#concerns a[href="concerns.html"]{
+    font-weight: bold;
+}
+/* childcare */
+#childcare{
+    line-height: 1.5;
+}
+#childcare .social{
+    display: none;
+}
+#whyChildcare img {
+    height: auto;
+    width: 470px;
+    border: 1px solid black;
+}
+main>div{
+    display: flex;
+    flex-direction: column;
+}
+#childcare .imgwrapper{
+    width: 100%;
+    height: 100%;
+}
+#whyChildcare{
+    order: 2;
+    text-align: left;
+    align-content: flex-start;
+
+}
+#childcare .imggroup{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+#childcare .imggroup.long div+div{
+    width: 60%;
+}
+#childcare div #choseChildcare img, #childcare div #childcareBenefits img{
+    height: 278.23px;
+    width: 463.73px;
+}
+#childcare .links a{
+    color: rgba(0, 114, 153, 1);
+     margin-left: 0px;  
+}
+#childcare h2{
+    font-size: 24pt;
+    margin:0;
+    text-align:left;
+}
+#childcare p{
+    font-size: 14pt;
+    font-family:'PT Sans';
+    font-weight: 400;
+}
+#childcare .links > ul{
+    font-size: 14pt;
+    font-family:'PT Sans';
+    font-weight: 400;
+    list-style-type: none;
+    text-align: left;
+    margin: 0px;
+    padding-left: 0px;
+}
+#whyChildcare div p{
+    margin-bottom: 0px;
+}
+#providers{
+    padding: 0px;
+    margin:15px 0px;
+    text-align: left;
+}
+/* activities */
+#activities .social{
+    display:none;
+}
+#activities .imgwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#programs .imgwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#programs .imggroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;width: 100%;
+    height: 100%;
+    width: 500px;
+    height: 1400px;
+    text-align:center;
+}
+.imggroup.long div:nth-child(2){
+    display:flex;
+    flex-direction: column;
+}
+
+.imggroup.long div .video{
+    order: -1;
+}
+.imggroup.long div h2, .imggroup.long div p{
+    text-align: left;
+    margin-left:10px;
+}
+
+main a:visited{
+    color: rgba(0, 114, 153, 1);
+}
+#activities .imggroup img{
+    height: 375.84px;
+    width: 359.56px;
+}
+#activities iframe{
+    width: 463.73px;
+    height: 342.45px;
+    display: inline;
+}
+#activities a[href="https://parentpowered.com/"]{
+    text-decoration: none;
+}
+#activities main #programs ul a{
+    font-family: 'PT Sans';
+    font-size: 14pt;
+    text-align:center;
+    color: rgba(249, 249, 249, 1);
+    background-color: rgba(0, 114, 153, 1);
+    border-radius: 4px;
+    text-decoration: none;
+    width: 100%;
+    display:block;
+
+}
+#activities main #programs ul {
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    padding: 0px;
+}
+#kids-and-parents .imgwrapper{
+    width: 100%;
+    height: 100%;
+}
+#kids-and-parents .imggroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 550px;
+}
+
+#kids-and-parents .imgwrapper .links ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+    text-align: center;
+}
+#kids-and-parents .links a{
+    color: rgba(0, 114, 153, 1);
+    font-size:14pt;
+    line-height:1.5;
+    font-family: 'PT Sans';
+}
+#kids-and-parents p, #kids-and-parents .links{
+    text-align:center;
+    font-size: 14pt;
+    line-height: 1.5;
+    font-family:'PT Sans';
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#kids-and-parents .imgdiv a img, #kidAdventures .imgdiv a img{
+    height: 266px;
+    width: 266px;
+    margin-left:10px;
+}
+#Parks .imgdiv a img{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.imgwrapper #Parks {
+    flex-basis: 50%;
+    margin-top: 30px;
+    min-width: 500px;
+}
+#AtHome{
+    margin-top:50px;
+    width: 100%;
+    height: 100%;
+}
+#LearnKY{
+    display:flex;
+    flex-direction: row;
+    font-size:14pt;
+    font-family: 'PT Sans';
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#LearnKY ul{
+    list-style-type: none;
+}
+#LearnKY div{
+    align-self:center;
+}
+#LearnKY ul a{
+    color: rgba(0, 114, 153, 1);
+}
+#activities h2{
+    font-size: 24pt; 
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 1.5;
+}
+#activities main{
+    display: flex;
+    flex-direction: column;
+}
+#kidsAdventures .imgwrapper{
+    width: 100%;
+    height: 100%;
+    align-self: flex-start;
+    flex-basis: 50%;
+}
+#kidAdventures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align:center;
+    width: 100%;
+    height: 100%;
+}
+#kidAdventures .imggroup{
+    width: 300px;
+    height: 500px;
+}
+#kidAdventures ul{
+    list-style-type: none;
+    text-align:center;
+    margin-left: 0px;
+    padding-left:0px;
+}
+#kidAdventures ul a{
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    color: rgba(0, 114, 153, 1);
+    
+}
+#kidAdventures p{
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    text-align:center;
+}
+#kidAdventures img{
+    text-align: center;
+}
+/* Support */
+#support .social{
+    display: none;
+}
+#support .imgwrapper{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#support .imggroup.short{
+    width: 300px;
+    height: 600px;
+}
+#support .imgwrapper p{
+    padding: 0px;
+    line-height:1.5;
+    font-size:14pt;
+    font-family: 'PT Sans';
+}
+#MOPS div+div{
+    padding-left:10px;
+    padding-right: 10px;
+}
+#support .imgwrapper img{
+    height: 266.41px;
+    width: 266.41px;
+}
+#support h2{
+    font-size: 24pt; 
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 1.5;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#newParents .imggroup{
+    text-align: center;
+    line-height:1.5;
+    font-size:14pt;
+    font-family:'PT Sans';
+}
+#newParents{
+    align-self: flex-start;
+}
+
+#newParents ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+
+}
+#newParents ul a{
+    color: rgba(0, 114, 153, 1);
+}
+#therapy .imgwrapper ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#therapy .imgwrapper ul a{
+    color:rgba(0, 114, 153, 1);
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height:1.5;
+}
+#caregivers{
+    align-self: flex-start;
+}
+#MOPS {
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height:1.5;
+    text-align:center;
+}
+#MOPS ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+}
+#MOPS ul a{
+    color: rgba(0, 114, 153, 1);
+}
+/* Preschool Page */
+#preschool .social{
+    display:none;
+}
+#preschool p{
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+    font-weight: 400;
+}
+#preschool .imgwrapper{
+     width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#preschool #PublicPreschool .imggroup.short, #preschool #PrivatePreschool .imggroup.short {
+    width: 300px;
+    height: 600px;
+}
+#HeadstartSection{
+    width: 100%;
+}
+#headStartPre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    align-self: flex-start;
+    flex-grow: 1;
+}
+#headStartPre ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+}
+#headStartPre ul a{
+    display: none;
+}
+#preschool .imgwrapper img{
+    height: 266.41px;
+    width: 266.41px;
+}
+#preschool h2{
+    font-size: 24pt;
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+}
+#PublicPreschool .imgwrapper ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PublicPreschool .imgwrapper ul a{
+    color: rgba(0, 114, 153, 1);
+    
+}
+#PublicPreschool .imgwrapper .phone a{
+    color: black;
+    text-decoration: none;
+}
+#PublicPreschool .imgwrapper .phone {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PrivatePreschool .imgwrapper ul{
+     list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PrivatePreschool .imgwrapper ul a{
+    color: rgba(0, 114, 153, 1);
+    
+}
+#PrivatePreschool .imgwrapper .phone a{
+    color: black;
+    text-decoration: none;
+}
+#PrivatePreschool .imgwrapper .phone {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 14pt;
+    font-family: 'PT Sans';
+    line-height: 1.5;
+}
+#PrivatePreschool{
+    align-self: flex-start;
+}
+#PrivatePreschool .imgwrapper{
+    text-align: center;
+}
+#PrivatePreschool .links a{
+    text-align: center;
+}
+/* concerns */
+#concerns .social{
+    display:none;
+}
+#concerns main section{
+    font-family: 'PT Sans';
+    font-size:14pt;
+    line-height:1.5;
+    font-weight:400;
+    padding-bottom: 25px;
+    border-bottom: 2px lightgray solid;
+}
+#concerns main section a{
+    color: rgba(0, 114, 153, 1);
+}
+#concerns a[href="https://www.cdc.gov/ncbddd/actearly/whyActEarly.html"]{
+    font-weight: bold;
+}
+#concerns main section ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+#concerns .imgwrapper{
+    display:flex;
+    flex-direction: row;
+    font-family: 'PT Sans';
+    font-weight:400;
+    font-size:14pt;
+    text-align:center;
+    line-height:1.5;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#concerns .imggroup{
+    flex-basis: 45%;
+}
+#AddressConcerns .imgwrapper h2{
+    font-family: 'Raleway';
+    font-size: 24pt;
+    line-height: 1.5;
+    font-weight:600;
+    text-align: center;
+}
+#AddressConcerns .imgwrapper .phone a{
+    text-decoration: none;
+    color: black;
+}
+#AddressConcerns .imgwrapper .links ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    text-align:center;
+}
+#concerns img{
+    height: 495.86px;
+    width: 562.41px;
+}
