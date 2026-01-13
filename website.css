@@ -653,6 +653,7 @@ main a:visited{
 #PrivatePreschool .links a{
     text-align: center;
 }
+/* concerns */
 #concerns .social{
     display:none;
 }
@@ -674,7 +675,7 @@ main a:visited{
     list-style-type: square;
     margin-left: 30px;
 }
-#AddressConcerns .imgwrapper{
+#concerns .imgwrapper{
     display:flex;
     flex-direction: row;
     font-family: 'PT Sans';
@@ -682,12 +683,20 @@ main a:visited{
     font-size:14pt;
     text-align:center;
     line-height:1.5;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#concerns .imggroup{
+    flex-basis: 45%;
 }
 #AddressConcerns .imgwrapper h2{
     font-family: 'Raleway';
     font-size: 24pt;
     line-height: 1.5;
     font-weight:600;
+    text-align: center;
 }
 #AddressConcerns .imgwrapper .phone a{
     text-decoration: none;
