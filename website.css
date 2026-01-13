@@ -8,8 +8,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
 }
 main{
     padding: 0px 48px;
@@ -263,7 +261,7 @@ main>div{
 #activities .imgwrapper{
     display: flex;
     flex-direction: row;
-    align-items: center;
+
     justify-content: center;
     flex-wrap: wrap;
 
@@ -381,17 +379,23 @@ main a:visited{
     width: 266px;
     margin-left:10px;
 }
+#Boylelibrary {
+    flex-grow: 1;
+}
 #Mercerlibrary{
     justify-self:flex-end;
 }
+/*
 #Mercerlibrary p{
     display:none;
 }
 #Mercerlibrary .links{
     position:relative;
-    top: 150px;
-    left: -165px;
+    top: 65px;
+    left: -415px;
+    display: none;
 }
+    */
 #Parks .imgdiv a img{
     height: 100%;
     width: 100%;
@@ -406,12 +410,16 @@ main a:visited{
 }
 #AtHome{
     margin-top:50px;
+    width: 100%;
+    height: 100%;
 }
 #LearnKY{
     display:flex;
     flex-direction: row;
     font-size:14pt;
     font-family: 'PT Sans';
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #LearnKY ul{
     list-style-type: none;
@@ -428,14 +436,29 @@ main a:visited{
     font-weight: 600;
     line-height: 1.5;
 }
-#kidAdventures{
-    display:flex;
+#activities main{
+    display: flex;
     flex-direction: column;
+}
+#kidsAdventures .imgwrapper{
+    width: 100%;
+    height: 100%;
+    align-self: flex-start;
+    flex-basis: 50%;
+}
+#kidAdventures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    width: 50%;
-    margin-left: 0px;
-    padding-left:0px;
-    
+    flex-wrap: wrap;
+    text-align:center;
+    width: 100%;
+    height: 100%;
+}
+#kidAdventures .imggroup{
+    width: 300px;
+    height: 500px;
 }
 #kidAdventures ul{
     list-style-type: none;
