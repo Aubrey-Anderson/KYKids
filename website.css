@@ -192,26 +192,46 @@ img[alt="Instagram"]{
 #childcare .social{
     display: none;
 }
-#whyChildcare img{
-    display: none;
+#whyChildcare img {
+    height: auto;
+    width: 470px;
+    border: 1px solid black;
 }
 main>div{
     display: flex;
     flex-direction: column;
 }
+#childcare .imgwrapper{
+    width: 100%;
+    height: 100%;
+}
 #whyChildcare{
     order: 2;
     text-align: left;
+    align-content: flex-start;
+
 }
-#choseChildcare{
+#childcare .imggroup{
     display:flex;
     flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+#childcare .imggroup.long div+div{
+    width: 60%;
+}
+/*#choseChildcare{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 #childcareBenefits{
     display: flex;
     flex-direction: row;
-}
-#childcare div img{
+    flex-wrap:wrap;
+} */
+#childcare div #choseChildcare img, #childcare div #childcareBenefits img{
     height: 278.23px;
     width: 463.73px;
 }
@@ -236,28 +256,20 @@ main>div{
     list-style-type: none;
     text-align: left;
     margin: 0px;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 #whyChildcare div p{
     margin-bottom: 0px;
 }
-#poviders{
+#providers{
     padding: 0px;
     margin:15px 0px;
+    text-align: left;
 }
 /* activities */
 #activities .social{
     display:none;
 }
-/*#activities .imgwrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    text-align: left;
-    justify-content: center;
-    width: 100%;
-}
-*/
 #activities .imgwrapper{
     display: flex;
     flex-direction: row;
@@ -276,7 +288,8 @@ main>div{
     flex-direction: row;
     justify-content: space-around;
     align-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap;width: 100%;
+    height: 100%;
     width: 500px;
     height: 1400px;
     text-align:center;
@@ -327,19 +340,6 @@ main a:visited{
     display: block;
     padding: 0px;
 }
-/*#kids-and-parents{
-    margin-left: 0px;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: auto auto auto auto;
-    justify-content: center;
-    align-items: center;
-    
-}
-#kids-and-parents h2{
-    grid-area: 1/1/1/5;
-} */
 #kids-and-parents .imgwrapper{
     width: 100%;
     height: 100%;
