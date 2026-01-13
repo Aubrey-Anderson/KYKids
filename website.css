@@ -221,16 +221,6 @@ main>div{
 #childcare .imggroup.long div+div{
     width: 60%;
 }
-/*#choseChildcare{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-}
-#childcareBenefits{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-} */
 #childcare div #choseChildcare img, #childcare div #childcareBenefits img{
     height: 278.23px;
     width: 463.73px;
@@ -351,7 +341,7 @@ main a:visited{
     align-items: center;
     flex-wrap: wrap;
     width: 300px;
-    height: 500px;
+    height: 550px;
 }
 
 #kids-and-parents .imgwrapper .links ul{
@@ -379,12 +369,7 @@ main a:visited{
     width: 266px;
     margin-left:10px;
 }
-#Boylelibrary {
-    flex-grow: 1;
-}
-#Mercerlibrary{
-    justify-self:flex-end;
-}
+
 /*
 #Mercerlibrary p{
     display:none;
@@ -394,6 +379,9 @@ main a:visited{
     top: 65px;
     left: -415px;
     display: none;
+}
+#Mercerlibrary{
+    justify-self:flex-end;
 }
     */
 #Parks .imgdiv a img{
@@ -484,14 +472,22 @@ main a:visited{
 #support .social{
     display: none;
 }
-#newParents .imgwrapper{
+#support .imgwrapper{
+    width: 100%;
+    height: 100%;
+    
+}
+#support .imgwrapper{
     margin-left: 0px;
     padding: 0px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    align-items: flex-start;
-    width: 60%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#support .imggroup.short{
+    width: 300px;
+    height: 600px;
 }
 #support .imgwrapper p{
     padding: 0px;
@@ -502,18 +498,6 @@ main a:visited{
 #MOPS div+div{
     padding-left:10px;
     padding-right: 10px;
-}
-#newParents h2{
-    grid-area: 1/1/1/4;
-}
-#KYHands{
-    grid-area: 2/1/3/2;
-}
-#Haven{
-    grid-area: 2/2/3/3;
-}
-#Ephraim{
-    grid-area: 2/3/3/4;
 }
 #support .imgwrapper img{
     height: 266.41px;
@@ -533,6 +517,13 @@ main a:visited{
     font-size:14pt;
     font-family:'PT Sans';
 }
+#newParents{
+    align-self: flex-start;
+}
+#caregivers{
+    align-self: flex-start;
+}
+
 #newParents ul{
     list-style-type: none;
     margin-left:0px;
@@ -541,39 +532,6 @@ main a:visited{
 }
 #newParents ul a{
     color: rgba(0, 114, 153, 1);
-}
-#therapy .imgwrapper{
-    display:grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto;
-    text-align: center;
-}
-#therapy h2{
-    grid-area: 1/1/2/5;
-}
-#firststeps{
-    grid-area: 2/1/3/2;
-}
-#KidsCanDo{
-    grid-area: 2/2/3/3;
-}
-#HeadStart{
-    grid-area: 2/3/3/4;
-}
-#vips{
-    grid-area: 2/4/3/5;
-}
-#KCDHH{
-    grid-area: 3/1/4/2;
-}
-#KYACA{
-    grid-area: 3/2/4/3;
-}
-#KYSpin{
-    grid-area: 3/3/4/4;
-}
-#OSCHCN{
-    grid-area: 3/4/4/5;
 }
 #therapy .imgwrapper ul{
     list-style-type: none;
