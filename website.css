@@ -251,39 +251,65 @@ main>div{
 #activities .social{
     display:none;
 }
-#activities .imgwrapper{
+/*#activities .imgwrapper{
     display: grid;
-/*    grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     text-align: left;
     justify-content: center;
     width: 100%;
+}
+*/
+#activities .imgwrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
-.imggroup.long div .video{
-    order: -1;
+#programs .imgwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#programs .imggroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 1400px;
+    text-align:center;
 }
 .imggroup.long div:nth-child(2){
     display:flex;
     flex-direction: column;
 }
+
+.imggroup.long div .video{
+    order: -1;
+}
+.imggroup.long div h2, .imggroup.long div p{
+    text-align: left;
+    margin-left:10px;
+}
+
 main a:visited{
     color: rgba(0, 114, 153, 1);
-}
-#ready4k:nth-child(1){
-    grid-column-start: 1;
 }
 #activities .imggroup img{
     height: 375.84px;
     width: 359.56px;
 }
 #activities iframe{
-    width: 359.56px;
-    height: 265.53px;
+    width: 463.73px;
+    height: 342.45px;
     display: inline;
 }
 #activities a[href="https://parentpowered.com/"]{
-    text-decoration: normal;
+    text-decoration: none;
 }
 #activities main #programs ul a{
     font-family: 'PT Sans';
@@ -301,8 +327,9 @@ main a:visited{
     list-style-type: none;
     width: 100%;
     display: block;
+    padding: 0px;
 }
-#kids-and-parents{
+/*#kids-and-parents{
     margin-left: 0px;
     padding: 0px;
     display: grid;
@@ -314,7 +341,21 @@ main a:visited{
 }
 #kids-and-parents h2{
     grid-area: 1/1/1/5;
+} */
+#kids-and-parents .imgwrapper{
+    width: 100%;
+    height: 100%;
 }
+#kids-and-parents .imggroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 500px;
+}
+
 #kids-and-parents .imgwrapper .links ul{
     list-style-type: none;
     margin-left:0px;
@@ -332,21 +373,13 @@ main a:visited{
     font-size: 14pt;
     line-height: 1.5;
     font-family:'PT Sans';
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 #kids-and-parents .imgdiv a img, #kidAdventures .imgdiv a img{
     height: 266px;
     width: 266px;
-    display:block;
     margin-left:10px;
-}
-#cradleSchool {
-    grid-area: 2/1/2/2;
-}
-#GladysProject{
-    grid-area: 2/2/2/3;
-}
-#Boylelibrary, #Mercerlibrary{
-    grid-area: 2/3/2/5;
 }
 #Mercerlibrary{
     justify-self:flex-end;
@@ -359,25 +392,17 @@ main a:visited{
     top: 150px;
     left: -165px;
 }
-#artCenterBG{
-    grid-area: 3/1/3/2;
-}
-#kinderMusik {
-    grid-area: 3/2/3/3;
-}
-#PlaidElephant{
-    grid-area: 3/3/3/4;
-}
-#EpicPlay{
-    grid-area: 3/4/3/5;margin-left:none;
-    padding-left:none;
-}
-#Parks{
-    grid-area: 4/1/4/3;
-}
 #Parks .imgdiv a img{
-    height: 267px;
-    width: 562px;
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.imgwrapper #Parks {
+    flex-basis: 50%;
+    margin-top: 30px;
+    min-width: 500px;
+    
 }
 #AtHome{
     margin-top:50px;
