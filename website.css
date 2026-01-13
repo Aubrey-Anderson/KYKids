@@ -263,7 +263,6 @@ main>div{
 #activities .imgwrapper{
     display: flex;
     flex-direction: row;
-
     justify-content: center;
     flex-wrap: wrap;
 
@@ -369,21 +368,6 @@ main a:visited{
     width: 266px;
     margin-left:10px;
 }
-
-/*
-#Mercerlibrary p{
-    display:none;
-}
-#Mercerlibrary .links{
-    position:relative;
-    top: 65px;
-    left: -415px;
-    display: none;
-}
-#Mercerlibrary{
-    justify-self:flex-end;
-}
-    */
 #Parks .imgdiv a img{
     height: 100%;
     width: 100%;
@@ -394,7 +378,6 @@ main a:visited{
     flex-basis: 50%;
     margin-top: 30px;
     min-width: 500px;
-    
 }
 #AtHome{
     margin-top:50px;
@@ -475,9 +458,6 @@ main a:visited{
 #support .imgwrapper{
     width: 100%;
     height: 100%;
-    
-}
-#support .imgwrapper{
     margin-left: 0px;
     padding: 0px;
     display:flex;
@@ -520,9 +500,6 @@ main a:visited{
 #newParents{
     align-self: flex-start;
 }
-#caregivers{
-    align-self: flex-start;
-}
 
 #newParents ul{
     list-style-type: none;
@@ -544,25 +521,20 @@ main a:visited{
     font-size: 14pt;
     font-family: 'PT Sans';
     line-height:1.5;
-    
 }
 #caregivers{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+    align-self: flex-start;
 }
 #MOPS {
     font-size: 14pt;
     font-family: 'PT Sans';
     line-height:1.5;
     text-align:center;
-  
 }
 #MOPS ul{
     list-style-type: none;
     margin-left:0px;
     padding-left: 0px;
-
 }
 #MOPS ul a{
     color: rgba(0, 114, 153, 1);
@@ -577,14 +549,31 @@ main a:visited{
     line-height: 1.5;
     font-weight: 400;
 }
+#preschool .imgwrapper{
+     width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#preschool #PublicPreschool .imggroup.short, #preschool #PrivatePreschool .imggroup.short {
+    width: 300px;
+    height: 600px;
+}
+#HeadstartSection{
+    width: 100%;
+}
 #headStartPre{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    font-size: 14pt;
-    font-family: 'PT Sans';
-    line-height: 1.5;
+    align-self: flex-start;
+    flex-grow: 1;
 }
 #headStartPre ul{
     list-style-type: none;
@@ -592,7 +581,7 @@ main a:visited{
     padding-left:0px;
 }
 #headStartPre ul a{
-    color: rgba(0, 114, 153, 1);
+    display: none;
 }
 #preschool .imgwrapper img{
     height: 266.41px;
@@ -605,12 +594,8 @@ main a:visited{
     line-height: 1.5;
     text-align: left;
 }
-#PublicPreschool .imgwrapper{
-    display: flex;
-    flex-direction: row;
-}
 #PublicPreschool .imgwrapper ul{
-     list-style-type: none;
+    list-style-type: none;
     margin-left: 0px;
     padding-left:0px;
     text-align: center;
@@ -633,11 +618,6 @@ main a:visited{
     font-size: 14pt;
     font-family: 'PT Sans';
     line-height: 1.5;
-}
-#PrivatePreschool .imgwrapper{
-    display: flex;
-    flex-direction: row;
-    width: 75%;
 }
 #PrivatePreschool .imgwrapper ul{
      list-style-type: none;
@@ -663,6 +643,9 @@ main a:visited{
     font-size: 14pt;
     font-family: 'PT Sans';
     line-height: 1.5;
+}
+#PrivatePreschool{
+    align-self: flex-start;
 }
 #PrivatePreschool .imgwrapper{
     text-align: center;
