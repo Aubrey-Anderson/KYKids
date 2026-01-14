@@ -10,11 +10,119 @@ body{
     justify-content: center;
     align-items: center;
 }
+@media (orientation: portrait) {
+   #childcare .imggroup.long{
+    margin: 0px;
+    padding: 10px 0px;
+    display:block;
+    text-align: center;
+    font-size: 12vw;
+   }
+   #activities .imggroup.long{
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 12vw;
+     width: 90vw;
+    height: 1450px;
+   }
+   #activities .imggroup.long .video{
+    margin-left: 180px;
+    text-align: center;
+    align-content: center;
+   }
+   #activities .imggroup.long ul{
+    margin: 0px;
+    padding: 0px;
+   }
+   #activities .imggroup.short{
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 40vw;
+    height: 550px;
+   }
+    #AtHome{
+    margin: 0px;
+    padding: 30px 0px 100px 0px;
+    text-align: left;
+    width: 90vw;
+    height: 550px;
+   }
+   #programs .imgwrapper #dolly{
+    height: 1200px;
+   }
+   #support #caregivers{
+    width: 90vw;
+   }
+   #support .imggroup.short {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 40vw !important;
+   }
+   #preschool .imggroup.short {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 40vw !important;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    align-content: center;
+   }
+   #preschool .imgwrapper #headStartPre img{
+    width: 45vw;
+    height: auto;
+    margin-left: 200px;
+   }
+   #preschool .imgwrapper #headStartPre p{
+    width: 90vw;
+    height: auto;
+    font-size: 2.5em !important;
+   }
+   #concerns #AddressConcerns .imggroup.long{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 95vw !important;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    align-content: center;
+    flex-basis:100%;
+   }
+   #concerns #AddressConcerns .imggroup.long p{
+    text-align: center;
+    font-size: 2em !important;
+   }
+   #concerns #AddressConcerns .imggroup.long h2{
+    text-align: center;
+    font-size: 2em !important;
+   }
+   #concerns section>h2{
+    font-size: 3em !important;
+    text-align: center;
+   }
+   #concerns #AddressConcerns .imggroup.long a{
+    text-align: center;
+    font-size: 2em !important;
+   }
+   #concerns section h2+p{
+    font-size: 1.5em !important;
+   }
+   #concerns section h2+p+p{
+    font-size: 1.5em !important;
+   }
+   #concerns section h2+p+p+p+p{
+    font-size: 2em !important;
+   }
+   #concerns section h2+p+p+p+p+ul+p{
+    font-size: 2em !important;
+   }
+   #preschool .imggroup.long p{
+    text-align: center;
+    font-size: 2em !important;
+   }
 
-@media only screen and (max-width: 600px){
-    nav{
-        
-    }
 }
 
 main{
@@ -25,6 +133,14 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+@keyframes wiggle {
+   0%   { transform: rotate(0); }  
+   25%  { transform: rotate(3deg); }  
+   75%  { transform: rotate(-3deg); }
+   100% { transform: rotate(0); }
+}
+
 header{
     background-image: url('./imgs/kids.png');
     display: flex;
@@ -41,6 +157,9 @@ header{
 .logo{
     display: none;
 }
+#funding h2:hover, #funding h2:focus{
+    animation: wiggle 200ms linear 1s 2 reverse;
+}
 h1{
     color: #134e4e;
     text-align: center;
@@ -50,6 +169,7 @@ h1{
     font-size: 60pt;
     font-weight: 600;
 }
+
 nav{
     position: fixed;
     text-align: right;
@@ -105,7 +225,7 @@ nav a{
     border: none;
 }
 p a{
-    color: #f57f2b;
+    color: #F4631E;
 }
 li{
     padding: 10px 12px;
@@ -126,9 +246,8 @@ section p{
 h2{
     color: #309898;
     font-weight: 600;
-    font-size:24pt;
+    font-size:30pt;
     font-family: 'Raleway';
- 
 }
 address{
     font-style: normal;
@@ -145,7 +264,7 @@ h3{
 }
 address~p{
     font-weight: bold;
-    color: #f57f2b;
+    color: #F4631E;
     margin: 0px 0px 30px 0px;
 }
 address~p~p{
@@ -236,7 +355,11 @@ main>div{
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    border-bottom: #fa9247e3 solid 2px;
+
 }
+
 #childcare .imggroup.long div+div{
     flex-basis: 60%
 }
@@ -245,7 +368,7 @@ main>div{
     width: 463.73px;
 }
 #childcare .links a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
      margin-left: 0px;  
 }
 #childcare h2{
@@ -301,6 +424,9 @@ main>div{
     width: 500px;
     height: 1400px;
     text-align:center;
+    border-bottom: #fa9247e3 solid 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .imggroup.long div:nth-child(2){
     display:flex;
@@ -316,7 +442,7 @@ main>div{
 }
 
 main a:visited{
-    color: #f57f2b;
+    color: #F4631E;
 }
 #dolly a:visited{
     color:#309898;
@@ -363,6 +489,7 @@ main a:visited{
     flex-wrap: wrap;
     width: 300px;
     height: 550px;
+    border-bottom: #fa9247e3 solid 2px;
 }
 
 #kids-and-parents .imgwrapper .links ul{
@@ -372,7 +499,7 @@ main a:visited{
     text-align: center;
 }
 #kids-and-parents .links a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
     font-size:14pt;
     line-height:1.5;
     font-family: 'PT Sans';
@@ -406,6 +533,9 @@ main a:visited{
     width: 100%;
     height: 100%;
 }
+#AtHome {
+    border-bottom: #fa9247e3 solid 2px;
+}
 #LearnKY{
     display:flex;
     flex-direction: row;
@@ -421,7 +551,7 @@ main a:visited{
     align-self:center;
 }
 #LearnKY ul a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
 }
 #activities h2{
     font-size: 24pt; 
@@ -452,6 +582,7 @@ main a:visited{
 #kidAdventures .imggroup{
     width: 300px;
     height: 500px;
+    border-bottom: #fa9247e3 solid 2px;
 }
 #kidAdventures ul{
     list-style-type: none;
@@ -462,7 +593,7 @@ main a:visited{
 #kidAdventures ul a{
     font-size: 14pt;
     font-family: 'PT Sans';
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
     
 }
 #kidAdventures p{
@@ -490,6 +621,7 @@ main a:visited{
 #support .imggroup.short{
     width: 300px;
     height: 600px;
+    border-bottom: #fa9247e3 solid 2px;
 }
 #support .imgwrapper p{
     padding: 0px;
@@ -530,7 +662,10 @@ main a:visited{
 
 }
 #newParents ul a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
+}
+#therapy .imggroup{
+    margin-bottom: 20px;
 }
 #therapy .imgwrapper ul{
     list-style-type: none;
@@ -538,7 +673,7 @@ main a:visited{
     margin-left: 0px;
 }
 #therapy .imgwrapper ul a{
-    color:rgba(0, 114, 153, 1);
+    color:#F4631E;
     text-align: center;
     font-size: 14pt;
     font-family: 'PT Sans';
@@ -559,7 +694,7 @@ main a:visited{
     padding-left: 0px;
 }
 #MOPS ul a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
 }
 /* Preschool Page */
 #preschool .social{
@@ -584,6 +719,7 @@ main a:visited{
 #preschool #PublicPreschool .imggroup.short, #preschool #PrivatePreschool .imggroup.short {
     width: 300px;
     height: 600px;
+    border-bottom: #fa9247e3 solid 2px;
 }
 #HeadstartSection{
     width: 100%;
@@ -596,6 +732,7 @@ main a:visited{
     text-align: center;
     align-self: flex-start;
     flex-grow: 1;
+    border-bottom: #fa9247e3 solid 2px;
 }
 #headStartPre ul{
     list-style-type: none;
@@ -610,7 +747,7 @@ main a:visited{
     width: 266.41px;
 }
 #preschool h2{
-    font-size: 24pt;
+    font-size: 30pt;
     font-family: 'Raleway';
     font-weight: 600;
     line-height: 1.5;
@@ -627,7 +764,7 @@ main a:visited{
     line-height: 1.5;
 }
 #PublicPreschool .imgwrapper ul a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
     
 }
 #PublicPreschool .imgwrapper .phone a{
@@ -652,7 +789,7 @@ main a:visited{
     line-height: 1.5;
 }
 #PrivatePreschool .imgwrapper ul a{
-    color: rgba(0, 114, 153, 1);
+    color: #F4631E;
     
 }
 #PrivatePreschool .imgwrapper .phone a{
@@ -685,10 +822,10 @@ main a:visited{
     line-height:1.5;
     font-weight:400;
     padding-bottom: 25px;
-    border-bottom: 2px lightgray solid;
+    border-bottom: #fa9247e3 solid 2px;
 }
 #concerns main section a{
-    color: rgba(0, 114, 153, 1);
+    color:#f57f2b;
 }
 #concerns a[href="https://www.cdc.gov/ncbddd/actearly/whyActEarly.html"]{
     font-weight: bold;
@@ -696,6 +833,9 @@ main a:visited{
 #concerns main section ul{
     list-style-type: square;
     margin-left: 30px;
+}
+#age36 .links ul a {
+    color: #F4631E;
 }
 #concerns .imgwrapper{
     display:flex;
@@ -712,6 +852,7 @@ main a:visited{
 }
 #concerns .imggroup{
     flex-basis: 45%;
+    border-bottom: #fa9247e3 solid 2px;
 }
 #AddressConcerns .imgwrapper h2{
     font-family: 'Raleway';
@@ -719,6 +860,9 @@ main a:visited{
     line-height: 1.5;
     font-weight:600;
     text-align: center;
+}
+#AddressConcerns .imgwrapper a{
+    color: #309898;
 }
 #AddressConcerns .imgwrapper .phone a{
     text-decoration: none;
