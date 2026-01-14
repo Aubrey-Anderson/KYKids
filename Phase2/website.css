@@ -24,8 +24,9 @@ body{
     text-align: center;
     font-size: 12vw;
      width: 90vw;
-    height: 1450px;
+    height: 1650px;
    }
+
    #activities .imggroup.long .video{
     margin-left: 180px;
     text-align: center;
@@ -40,7 +41,7 @@ body{
     padding: 10px 0px;
     text-align: center;
     width: 40vw;
-    height: 550px;
+    height: 650px;
    }
     #AtHome{
     margin: 0px;
@@ -60,6 +61,8 @@ body{
     padding: 0px;
     text-align: center;
     width: 40vw !important;
+    height: 750px !important;
+    padding-top: 20px;
    }
    #preschool .imggroup.short {
     margin: 0px;
@@ -118,9 +121,58 @@ body{
    #concerns section h2+p+p+p+p+ul+p{
     font-size: 2em !important;
    }
-   #preschool .imggroup.long p{
+   #preschool .imggroup.short a{
     text-align: center;
     font-size: 2em !important;
+   }
+   #support .imggroup.short a, #support .imggroup.short p{
+    text-align: center;
+    font-size: 1.5em !important;
+   }
+   #activities .imggroup.long div>p, #activities .imggroup.long .links{
+    font-size: 25pt !important;
+   }
+   #activities .imggroup.short div>p, #activities .imggroup.short .links{
+    font-size: 1.5em !important;
+   }
+   #childcare .imggroup.long div>p{
+    font-size: .4em !important;
+   }
+   #childcareBenefits .links a, #whyChildcare .links a{
+    font-size: 2em !important;
+   }
+   #childcare .imggroup.long h2{
+    font-size: .5em !important;
+   }
+   #mission p+p{
+    font-size: 20pt !important;
+   }
+    #home main #inspiration p{
+    font-size: 1.5em !important;
+   }
+    #funding address{
+    font-size: 2em !important;
+   }
+   #home h3{
+    font-size: 25pt !important;
+   }
+   #home h2{
+    font-size: 40pt !important;
+   }
+   #home #members p+p{
+    font-size: 18pt !important;
+   }
+   #home #members p+p+p+p{
+    font-size: 29pt !important;
+   }
+   #home #funding p+p{
+    font-size: 24pt !important;
+   }
+   #funding h2+p{
+    font-size: 22pt !important;
+   }
+   #funding address+p{
+    font-size: 19pt !important;
    }
 
 }
